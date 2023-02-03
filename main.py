@@ -44,7 +44,7 @@ def file_sorted(files):
     quantity_line = {}
     list_line={}
     # count_file=len(files)
-    # s=sorted(count_file)
+    # s=sorted(count_file)wfw
     for file in files:
         with open(file,'r', encoding='utf-8') as f:
             list=[]
